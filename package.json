@@ -1,0 +1,59 @@
+{
+  "name": "ReactNativeSimplePrototype",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "eslint app/",
+    "lint:fix": "eslint app/ --fix"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.2",
+    "color": "^3.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "i": "^0.3.6",
+    "moment": "^2.22.0",
+    "prettier": "^1.11.1",
+    "prettier-eslint": "^8.8.1",
+    "prop-types": "^15.6.1",
+    "react": "16.3.1",
+    "react-native": "0.55.2",
+    "react-native-extended-stylesheet": "^0.8.1",
+    "react-native-floating-label-text-input": "^0.1.5",
+    "react-native-floating-labels": "^1.1.6",
+    "react-native-grid-component": "^1.0.10",
+    "react-native-image-crop-picker": "^0.20.1",
+    "react-native-image-preview": "^0.3.1",
+    "react-native-maps": "^0.21.0",
+    "react-native-masked-text": "^1.6.5",
+    "react-native-modalbox": "^1.4.2",
+    "react-native-photo-view": "^1.5.2",
+    "react-native-searchbar": "^1.14.0",
+    "react-native-textinput-effects": "^0.4.2",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^1.5.11",
+    "react-redux": "^5.0.7",
+    "realm": "^2.2.20",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
