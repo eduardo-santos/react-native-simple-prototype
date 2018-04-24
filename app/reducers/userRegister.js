@@ -13,10 +13,10 @@ import {
 
 const initialState = {
   profileImage: null,
-  name: 'edu santos',
-  email: 'edu@teste.com',
-  password: '123456',
-  cpf: '40120584875',
+  name: null,
+  email: null,
+  password: null,
+  cpf: null,
   isSubmiting: false,
   submitSuccessMessage: null,
   submitErrorMessage: null,

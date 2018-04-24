@@ -9,8 +9,8 @@ import {
 } from '../actions/userLogin';
 
 const initialState = {
-  email: 'edu@teste.com',
-  password: '123456',
+  email: null,
+  password: null,
   isSubmiting: false,
   submitSuccessMessage: null,
   submitErrorMessage: null,
